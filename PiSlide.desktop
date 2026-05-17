@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PiSlide Scanner
+Comment=Automated film slide scanner with Marlin motion control
+Exec=/bin/bash -c "cd /home/timmma/Documents/SlideScanner2 && python3 PiSlide_GUI.py"
+Icon=/home/timmma/Documents/SlideScanner2/pislide_icon2.png
+Terminal=false
+Categories=Utility;Photography;
+
+# Installation Instructions:
+# 1. Replace %INSTALL_DIR% with the actual path to this folder, e.g.:
+#    /home/username/Documents/SlideScanner
+# 2. Copy this file to ~/.local/share/applications/ for user install, or
+#    /usr/share/applications/ for system-wide install
+# 3. Make the launcher script executable:
+#    chmod +x launch_pislide_gui.sh
+# 4. Optional: Add a PNG icon file named pislide_icon.png in this directory

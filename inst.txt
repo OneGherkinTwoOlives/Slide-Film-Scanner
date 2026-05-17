@@ -1,0 +1,6 @@
+
+timmma@timmma-MacBookAir6-2:~/Documents/SlideScanner$ sudo usermod -a -G dialout $USER
+[sudo: authenticate] Password: 
+timmma@timmma-MacBookAir6-2:~/Documents/SlideScanner$ sudo chmod 666 /dev/ttyUSB0
+timmma@timmma-MacBookAir6-2:~/Documents/SlideScanner$ 
+
