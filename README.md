@@ -6,6 +6,8 @@ The code also homes the carrier each time it is run.  The moment switch is conne
 
 
 <b> Required items: </b> 
+*  Camera (no particular type but some DLSR).
+*  A macro lens - I used a Canon 50mm macro f2.5, with a 11mm lens tub extension.  
 *  Two small depth stepper motors (NEMA 17 style)
 *  RAMPS style motherboard (I used a MKS Gen_L V1.0_008) for controlling the stepper motors and running MARLIN
 *  Two stepper drivers (for example A4988)
